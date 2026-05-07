@@ -29,7 +29,7 @@ export default function Hero() {
         </div>
 
         <div className="mt-12 grid flex-1 items-center gap-12 lg:grid-cols-[0.95fr_1.05fr]">
-          <div className="max-w-3xl">
+          <div className="order-2 max-w-3xl lg:order-1">
             <h1 className="mt-7 max-w-[780px] text-[clamp(3.5rem,8.4vw,7.25rem)] font-black uppercase leading-[0.84] text-black">
               I Build
               <br />
@@ -91,7 +91,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative flex min-h-[500px] items-end justify-center lg:min-h-[650px] lg:justify-end">
+          <div className="order-1 relative flex min-h-[420px] items-end justify-center lg:order-2 lg:min-h-[650px] lg:justify-end">
             <div className="absolute inset-y-8 left-[12%] right-0 -z-10 rounded-lg bg-[linear-gradient(34deg,#fff1cf_0%,#ffd071_48%,#f4b84f_74%,#fff7e6_100%)] shadow-2xl shadow-amber-900/18 [clip-path:polygon(18%_0,100%_0,100%_100%,0_100%)]" />
             <div className="absolute bottom-10 right-4 -z-10 h-52 w-52 rounded-full bg-white/55 blur-2xl" />
 

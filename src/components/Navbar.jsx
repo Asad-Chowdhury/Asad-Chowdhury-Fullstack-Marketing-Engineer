@@ -47,12 +47,6 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="#contact"
-                className="mt-2 rounded-full bg-black px-4 py-3 text-center text-sm font-semibold text-white"
-              >
-                Contact
-              </a>
             </div>
           </div>
         </details>

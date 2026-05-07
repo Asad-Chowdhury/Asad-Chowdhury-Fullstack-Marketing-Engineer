@@ -5,8 +5,8 @@ export default function About() {
     <section id="about" className="bg-[#faf7f0] py-20 sm:py-28 lg:py-32">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
         <SectionHeader
-          eyebrow="Why should you hire me??"
-          title="I work at the intersection of full-stack development, analytics, and growth."
+          eyebrow="Why Hire Me"
+          title="Hire me when you need engineering, analytics, and growth thinking in one person."
           copy="My strongest value is not just writing code. It is building systems that connect product behavior, marketing performance, analytics, and business outcomes."
         />
         <div className="space-y-6 text-lg leading-9 text-zinc-700">

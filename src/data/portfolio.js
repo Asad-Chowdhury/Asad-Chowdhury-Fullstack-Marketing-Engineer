@@ -1,9 +1,10 @@
 export const navLinks = [
   { label: "Home", href: "#home" },
-  { label: "Work", href: "#work" },
-  { label: "About", href: "#about" },
+  { label: "Testimonial", href: "#testimonial" },
+  { label: "Featured Work", href: "#work" },
   { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#experience" },
+  { label: "Why Hire Me", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
 
