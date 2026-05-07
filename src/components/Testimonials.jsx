@@ -28,7 +28,7 @@ export default function Testimonials() {
   }, [activeVideo]);
 
   return (
-    <section id="testimonial" className="bg-[#fffdf7] py-16 sm:py-20 lg:py-24">
+    <section id="testimonial" className="bg-[#faf7f0] py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-3">
           {testimonials.map((testimonial) => (

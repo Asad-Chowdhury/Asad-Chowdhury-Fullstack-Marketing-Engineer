@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import ClientLogoMarquee from "@/components/ClientLogoMarquee";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import FeaturedWork from "@/components/FeaturedWork";
@@ -20,6 +21,7 @@ export default function Home() {
       <main>
         <Hero />
         <ProofStrip />
+        <ClientLogoMarquee />
         <Testimonials />
         <Positioning />
         <Problems />

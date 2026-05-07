@@ -63,6 +63,37 @@ export const proofPoints = [
   },
 ];
 
+export const clientLogos = [
+  {
+    name: "Torrefactorie",
+    src: "/clients-Torrefactorie.png",
+  },
+  {
+    name: "Bijouterie Dominic",
+    src: "/clients-bijouteriedominic.png",
+  },
+  {
+    name: "DK Law",
+    src: "/clients-dklaw.jpg",
+  },
+  {
+    name: "Duotax",
+    src: "/clients-duotax.png",
+  },
+  {
+    name: "JJ Lawyers",
+    src: "/clients-jjlawyers.jpeg",
+  },
+  {
+    name: "Tenniszon",
+    src: "/clients-tenniszon.jpg",
+  },
+  {
+    name: "Thrifty Tax",
+    src: "/clients-thriftytax.jpeg",
+  },
+];
+
 export const testimonials = [
   {
     title: "Client Testimonial: Ricky Hayes, CEO, Debutify",
@@ -332,6 +363,7 @@ export const experiences = [
   {
     role: "Conversion Tracking Expert",
     company: "Digital Recipe",
+    logo: "/DR-logo.png",
     achievement:
       "Built reliable campaign measurement systems across GA4, GTM, Meta CAPI, Google Ads, CRM events, and offline conversion workflows.",
     summary:
@@ -348,6 +380,7 @@ export const experiences = [
   {
     role: "Conversion Tracking & Data Analysis Specialist",
     company: "Conversio",
+    logo: "/conversio-logo.jpeg",
     achievement:
       "Improved marketing data quality by pairing tracking implementation with reporting QA, funnel analysis, and dashboard-ready event structures.",
     summary:
@@ -364,6 +397,7 @@ export const experiences = [
   {
     role: "Team Lead - Conversion Tracking",
     company: "Debutify",
+    logo: "/debutify_logo.jpeg",
     achievement:
       "Led Shopify-focused analytics and attribution work for a growth-driven eCommerce SaaS environment, connecting checkout behavior to ad platform optimization.",
     summary:
@@ -380,6 +414,7 @@ export const experiences = [
   {
     role: "Conversion Tracking Specialist",
     company: "Quick Evolve",
+    logo: "/QE-logo.jpeg",
     achievement:
       "Helped agency clients turn fragmented lead-generation tracking into cleaner conversion signals, reporting flows, and campaign measurement systems.",
     summary:
@@ -396,6 +431,7 @@ export const experiences = [
   {
     role: "Marketing & Automation Engineer",
     company: "Bytes 2 Insights",
+    logo: "/B2I-logo.webp",
     achievement:
       "Designed automation and analytics pipelines that connected CRM activity, ad platforms, reporting dashboards, and technical QA into scalable growth operations.",
     summary:

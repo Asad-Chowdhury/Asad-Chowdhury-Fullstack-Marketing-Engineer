@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { experiences } from "@/data/portfolio";
 import { Icon } from "./Icons";
 import SectionHeader from "./SectionHeader";
@@ -30,14 +31,20 @@ export default function Experience() {
           </div>
 
           <div className="space-y-5">
-            {experiences.map((experience, index) => (
+            {experiences.map((experience) => (
               <article
                 key={`${experience.company}-${experience.role}`}
                 className="group rounded-lg border border-black/8 bg-white p-5 shadow-sm shadow-black/4 transition-transform hover:-translate-y-1 sm:p-6"
               >
                 <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-black text-sm font-black text-white">
-                    0{index + 1}
+                  <div className="relative flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-black/8 bg-white p-2 shadow-sm shadow-black/4">
+                    <Image
+                      src={experience.logo}
+                      alt={`${experience.company} logo`}
+                      fill
+                      sizes="64px"
+                      className="object-contain p-2"
+                    />
                   </div>
 
                   <div className="min-w-0 flex-1">
