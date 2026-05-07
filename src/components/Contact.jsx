@@ -50,6 +50,60 @@ export default function Contact() {
               </div>
             </div>
           </div>
+
+          <form
+            action="mailto:asad.ami@gmail.com"
+            method="post"
+            encType="text/plain"
+            className="mt-12 border-t border-white/12 pt-8"
+          >
+            <div className="grid gap-4 md:grid-cols-2">
+              <label className="grid gap-2">
+                <span className="text-xs font-black uppercase tracking-[0.16em] text-zinc-400">
+                  Name
+                </span>
+                <input
+                  name="name"
+                  type="text"
+                  required
+                  placeholder="Your name"
+                  className="h-13 rounded-lg border border-white/12 bg-white/8 px-4 text-sm font-medium text-white outline-none transition-colors placeholder:text-zinc-500 focus:border-white/40"
+                />
+              </label>
+              <label className="grid gap-2">
+                <span className="text-xs font-black uppercase tracking-[0.16em] text-zinc-400">
+                  Email
+                </span>
+                <input
+                  name="email"
+                  type="email"
+                  required
+                  placeholder="you@company.com"
+                  className="h-13 rounded-lg border border-white/12 bg-white/8 px-4 text-sm font-medium text-white outline-none transition-colors placeholder:text-zinc-500 focus:border-white/40"
+                />
+              </label>
+            </div>
+
+            <label className="mt-4 grid gap-2">
+              <span className="text-xs font-black uppercase tracking-[0.16em] text-zinc-400">
+                Message
+              </span>
+              <textarea
+                name="message"
+                required
+                rows={5}
+                placeholder="Tell me about the role, project, or growth system you want to build."
+                className="resize-none rounded-lg border border-white/12 bg-white/8 px-4 py-4 text-sm font-medium leading-7 text-white outline-none transition-colors placeholder:text-zinc-500 focus:border-white/40"
+              />
+            </label>
+
+            <button
+              type="submit"
+              className="mt-5 inline-flex h-12 w-full items-center justify-center rounded-full bg-white px-6 text-sm font-black text-black transition-transform hover:-translate-y-0.5 sm:w-auto"
+            >
+              Send Message
+            </button>
+          </form>
         </div>
       </div>
     </section>

@@ -35,7 +35,8 @@ export const proofPoints = [
   {
     label: "Experience",
     value: "5+ Years",
-    description: "Conversion tracking, analytics, and marketing infrastructure.",
+    description:
+      "Conversion tracking, analytics, and marketing infrastructure.",
   },
   {
     label: "Freelance Proof",
@@ -45,12 +46,20 @@ export const proofPoints = [
   {
     label: "Business Types",
     value: "SaaS + eCommerce",
-    description: "Experience across SaaS, Shopify, agencies, and lead generation.",
+    description:
+      "Experience across SaaS, Shopify, agencies, and lead generation.",
   },
   {
-    label: "Core Stack",
-    value: "GA4 + GTM + CAPI",
-    description: "Client-side, server-side, and CRM-connected tracking systems.",
+    label: "Core Tracking Stack",
+    value: "DataLayer injection | GTM | CAPI | Marketing/Analytics End-points",
+    description:
+      "Client-side, server-side, and CRM-connected tracking systems.",
+  },
+  {
+    label: "Core Development Stack",
+    value: "Next.js | React | JS | Node.js | Express | MongoDB",
+    description:
+      "Client-side, server-side, and CRM-connected tracking systems.",
   },
 ];
 
