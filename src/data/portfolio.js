@@ -194,75 +194,64 @@ export const problems = [
 
 export const projects = [
   {
-    title: "Conversion Tracking Audit System",
-    category: "SaaS / Internal Tool Concept",
+    title: "Custom BI Dashboard for TennisZon",
+    category: "eCommerce Analytics Dashboard",
     problem:
-      "Businesses often do not know when GTM, GA4, ad pixels, or conversion events stop working.",
+      "TennisZon's team could see store and campaign numbers, but only as disconnected reports spread across Shopify, ad platforms, and analytics tools.",
     solution:
-      "A monitoring system that checks whether key tracking events fire across important flows and reports issues in a dashboard.",
-    stack: [
-      "Next.js",
-      "React",
-      "Node.js",
-      "GTM",
-      "GA4",
-      "Server-side tracking",
-      "Webhooks",
-    ],
+      "Built a custom business intelligence dashboard that pulls ecommerce, tracking, and campaign data into one place, so performance can be checked in a single view instead of stitched together by hand.",
+    stack: ["GA4", "Looker Studio", "BigQuery", "Shopify", "GTM"],
     outcome:
-      "Shows full-stack implementation against a real marketing infrastructure problem.",
+      "Delivered as a completed Upwork engagement for TennisZon, giving the team a single source of truth for store performance.",
+    visual: "dashboard",
+  },
+  {
+    title: "Comprehensive Analytics & Ad Tracking Setup",
+    category: "Conversion Tracking System",
+    problem:
+      "Redtail Industries needed accurate, unified conversion tracking across analytics and ad platforms to trust the numbers behind their ad spend decisions.",
+    solution:
+      "Implemented a full GA4, Google Tag Manager, Meta CAPI, and Google Ads tracking setup, closing gaps in event tracking and attribution across the funnel.",
+    stack: ["GA4", "GTM", "Meta CAPI", "Google Ads", "JavaScript"],
+    outcome:
+      "Completed as an Upwork contract for Redtail Industries, giving the team reliable data for campaign decisions.",
     visual: "audit",
   },
   {
-    title: "Shopify Tracking & Analytics Infrastructure",
-    category: "eCommerce Tracking System",
+    title: "Client-Server GTM for Shopify + WordPress",
+    category: "Server-Side Tracking Pipeline",
     problem:
-      "Shopify stores lose attribution because of checkout changes, app conflicts, consent banners, ad blockers, and incomplete dataLayer implementation.",
+      "Browser-based tracking alone wasn't capturing reliable conversion data across Révolution Fermentation's Shopify store and WordPress site, especially with ad blockers and browser restrictions in play.",
     solution:
-      "Implemented GA4 ecommerce events, GTM tracking, Meta CAPI, Google Ads conversions, server-side tracking, and checkout-compatible event flows.",
-    stack: [
-      "Shopify",
-      "Liquid",
-      "JavaScript",
-      "GTM",
-      "GA4",
-      "Meta CAPI",
-      "Google Ads",
-    ],
+      "Built a server-side Google Tag Manager setup using Stape, sending clean, deduplicated events from both platforms to the ad and analytics tools that needed them.",
+    stack: ["Server-side GTM", "Stape", "Shopify", "WordPress", "Meta CAPI"],
     outcome:
-      "Improved ecommerce tracking reliability and campaign reporting quality.",
-    visual: "shopify",
-  },
-  {
-    title: "CRM to Ad Platform Offline Conversion Pipeline",
-    category: "Marketing Data Pipeline",
-    problem:
-      "Lead-generation businesses qualify or close leads later inside a CRM, but ad platforms do not automatically receive those downstream signals.",
-    solution:
-      "Built a pipeline to send qualified and converted lead events to Meta CAPI and Google Ads using click IDs, hashed user data, timestamps, and deduplication logic.",
-    stack: [
-      "CRM webhooks",
-      "Zapier",
-      "JavaScript",
-      "Meta CAPI",
-      "Google Ads",
-      "Looker Studio",
-    ],
-    outcome:
-      "Connected lead quality and downstream revenue signals back to advertising platforms.",
+      "Delivered as a completed Upwork project for Révolution Fermentation, improving tracking reliability beyond what client-side tags alone could provide.",
     visual: "pipeline",
   },
   {
-    title: "Attribution & Funnel Reporting Dashboard",
-    category: "Analytics Dashboard",
+    title: "Shopify Funnel Tracking with GA4",
+    category: "eCommerce Tracking System",
     problem:
-      "Marketing teams see form submissions or purchases, but not which sources, campaigns, pages, and funnel stages drive quality outcomes.",
+      "A Shopify store needed accurate funnel tracking to see where shoppers were dropping off between browsing and checkout.",
     solution:
-      "Created a reporting structure combining conversion data, click IDs, UTMs, CRM stages, lead quality, and revenue outcomes.",
-    stack: ["Looker Studio", "BigQuery", "SQL", "GA4", "CRM exports", "UTMs"],
+      "Configured GA4 ecommerce events and Google Tag Manager tracking across the full Shopify funnel, from product views through purchase.",
+    stack: ["Shopify", "GA4", "GTM", "JavaScript"],
     outcome:
-      "Helped teams move from raw conversion counts to better campaign and funnel decisions.",
-    visual: "dashboard",
+      "Completed as an Upwork engagement, giving the store owner funnel-level visibility instead of top-line numbers only.",
+    visual: "shopify",
+  },
+  {
+    title: "Meta CAPI Server-Side Setup",
+    category: "Conversion API Implementation",
+    problem:
+      "iOS tracking restrictions and browser-side pixel loss were causing Meta ad platforms to under-report real conversions.",
+    solution:
+      "Set up Meta Conversions API on both server and browser side using a Stape server container and Google Tag Manager, with deduplication between the two paths.",
+    stack: ["Meta CAPI", "Stape", "GTM", "Server-side tracking"],
+    outcome:
+      "Delivered as a completed Upwork project, restoring conversion signal that browser-only pixel tracking was missing.",
+    visual: "audit",
   },
   {
     title: "Personal Portfolio Website",
